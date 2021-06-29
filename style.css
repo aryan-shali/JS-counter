@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent {
+    background: rgb(255, 190, 68);
+    width: 600px;
+    height: 400px;
+    border-radius: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 12rem;
+}
+
+.but {
+    width: 370px;
+    height: 40px;
+    border: 1px transparent solid;
+    border-radius: 20px;
+    background: rgb(255, 125, 4);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.parent div button {
+    font-weight: bold;
+    margin: 40px;
+    width: 90px;
+    height: 90px;
+    border: 1px transparent solid;
+    border-radius: 20px;
+    background: rgb(255, 125, 4);
+    font-size: 4rem;
+}
